@@ -1,6 +1,6 @@
 export const getAlAdanDataAsync = async (d, m, y, lat, longt) => {
     return new Promise(async (resolve, reject) => {
-        const url = `http://api.aladhan.com/v1/timings/${d}-${m}-${y}?latitude=${lat}&longitude=${longt}&method=2`;
+        const url = `https://api.aladhan.com/v1/timings/${d}-${m}-${y}?latitude=${lat}&longitude=${longt}&method=2`;
         try {
             let res = await fetch(url);
             if (res.ok) {
