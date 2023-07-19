@@ -1,0 +1,7 @@
+[
+    {"name": "quraan", "id":0, "title":"أدعية قرانيّة"},
+    {"name": "sabah", "id":1, "title":"أذكار الصباح"},
+    {"name": "masaa", "id":2, "title":"أذكار المساء"},
+    {"name": "salat", "id":3, "title":"أذكار الصلاة"},
+    {"name": "hadeeth", "id":4, "title":"أدعية نبويّة"}
+]

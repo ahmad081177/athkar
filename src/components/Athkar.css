@@ -1,0 +1,14 @@
+.athkar-header {
+ box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    padding: 0.5em;
+    background-color: rgb(95, 212, 225);
+    color: #fff;
+    justify-content: space-between;
+/*
+    position: fixed;
+    top: 0;
+    left: 0; */
+  }

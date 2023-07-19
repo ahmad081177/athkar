@@ -1,0 +1,13 @@
+.bounterButton{
+    border-radius: 1em;
+    border-color: lightseagreen;
+    color: lightslategray;
+    border-bottom-width: thick;
+    border-right-width: thick;
+    cursor: pointer;
+}
+
+.reset-button{
+    text-align: left;
+    
+}

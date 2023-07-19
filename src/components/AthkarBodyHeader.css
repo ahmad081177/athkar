@@ -1,0 +1,7 @@
+.card-hover:hover{
+    border: 3px solid rgb(224, 149, 35);
+    cursor: pointer;
+}
+.card-group{
+    justify-content: space-evenly;
+}

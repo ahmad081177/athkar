@@ -1,0 +1,25 @@
+import CounterDownButton from './CounterDownButton'
+import './ThikirCard.css'
+import React from 'react'
+
+const ThikirCard = (props) => {
+    //props.id, props.data
+    return (
+        <div key={props.data.id} className="card img-rounded equalizer col-a col-xs-12 col-ms-12 col-sm-12 col-md-12 equal-height text-dark bg-light mb-3 border-success" style={{ borderBottom: "1px solid transparent" }}>
+            <div className="card-header thikir-card-header">
+                دعاء #: {props.data.id + 1}
+                <CounterDownButton count={props.data.count} num={props.data.id + 1} />
+            </div>
+            <div className="card-body">
+                <h5 className="card-title">{props.data.title}</h5>
+                <p className="card-text">{props.data.content}</p>
+                {props.data.ref && <p>{props.data.ref}</p>}
+            </div>
+            <div className="card-footer">
+                {props.data.info && <small className=" text-success"><strong>{props.data.info}</strong></small>}
+            </div>
+        </div>
+    )
+}
+
+export default ThikirCard
